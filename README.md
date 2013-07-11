@@ -42,11 +42,11 @@ Setup
 Put this either in specific files or your project prefix file
 
 ```objective-c
-#import 'UIBarButtonItem+SHBarButtonItemBlocks.h'
+#import "UIBarButtonItem+SHBarButtonItemBlocks.h"
 ```
 or
 ```objective-c
-#import 'SHBarButtonItemBlocks.h'
+#import "SHBarButtonItemBlocks.h"
 ```
 
 API
