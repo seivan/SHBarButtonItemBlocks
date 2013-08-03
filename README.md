@@ -1,5 +1,8 @@
 SHBarButtonItemBlocks
 ==========
+[![Build Status](https://travis-ci.org/seivan/SHBarButtonItemBlocks.png?branch=master)](https://travis-ci.org/seivan/SHBarButtonItemBlocks)
+[![Version](http://cocoapod-badges.herokuapp.com/v/SHBarButtonItemBlocks/badge.png)](http://cocoadocs.org/docsets/SHBarButtonItemBlocks)
+[![Platform](http://cocoapod-badges.herokuapp.com/p/SHBarButtonItemBlocks/badge.png)](http://cocoadocs.org/docsets/SHBarButtonItemBlocks)
 
 Overview
 --------
