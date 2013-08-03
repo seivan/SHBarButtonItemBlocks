@@ -33,6 +33,14 @@
   STAssertTrue(selector != NULL, nil);
 }
 
+-(void)testSetActionAndTargetOnAddBlock; {
+  [self testSH_removeAllBlocks];
+  [self.barButtonItem SH_addBlock:self.block];
+  [self testHasSetTarget];
+  [self testHasSetAction];
+  
+}
+
 -(void)testSH_blocks; {
   STAssertTrue(self.barButtonItem.SH_blocks.count == 1, nil);
   STAssertEqualObjects(self.barButtonItem.SH_blocks.class, NSSet.new.class, nil);
@@ -51,8 +59,13 @@
 -(void)testSH_removeAllBlocks; {
   [self.barButtonItem SH_removeAllBlocks];
   STAssertTrue(self.barButtonItem.SH_blocks.SH_isEmpty, nil);
-  
+  SEL selector = self.barButtonItem.action;
+  STAssertTrue(selector == NULL, nil);
+  STAssertNil(self.barButtonItem.target, nil);
+
 }
+
+
 
 
 
