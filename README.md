@@ -1,3 +1,5 @@
+Deprecated, please use [RxCocoa](https://github.com/ReactiveX/RxSwift) 
+
 SHBarButtonItemBlocks
 ==========
 [![CI Status](https://img.shields.io/travis/seivan/SHBarButtonItemBlocks.svg?style=flat)](https://travis-ci.org/seivan/SHBarButtonItemBlocks)
